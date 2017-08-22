@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "kundanayellapu1",
+  "key": "RUkKCpEAz911BU5Cvh4R",
+
+  "capabilities": {
+    "browserstack.local": true
+  },
+
+ "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "safari": {
+      "browser": "safari"
+    },
+    "ie": {
+      "browser": "internet explorer"
+    }
+  }
+ }

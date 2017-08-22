@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true" >
+	<test name="Test">
+		<parameter name="config" value="single.conf.json" />
+		<parameter name="environment" value="chrome" />
+		<classes>
+			<class name="testSuite.Specification" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="API Test">
+		<parameter name="config" value="single.conf.json" />
+		<parameter name="environment" value="chrome" />
+		<classes>
+			<class name="testSuite.TestAPI" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  
+  <test name="SingleTestChrome">
+        <parameter name="config" value="single.conf.json"/>
+        <parameter name="environment" value="chrome"/>
+        <classes>
+            <class name="testSuite.SkillAssessmentResponsiveTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestFirefox">
+        <parameter name="config" value="single.conf.json"/>
+        <parameter name="environment" value="firefox"/>
+        <classes>
+            <class name="testSuite.SkillAssessmentResponsiveTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestSafari">
+        <parameter name="config" value="single.conf.json"/>
+        <parameter name="environment" value="safari"/>
+        <classes>
+            <class name="testSuite.SkillAssessmentResponsiveTest"/>
+        </classes>
+    </test>
+
+    <test name="SingleTestIE">
+        <parameter name="config" value="single.conf.json"/>
+        <parameter name="environment" value="ie"/>
+        <classes>
+            <class name="testSuite.SkillAssessmentResponsiveTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

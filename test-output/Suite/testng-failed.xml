@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="SingleTestFirefox(failed)">
+    <parameter name="environment" value="firefox"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="testSuite.SkillAssessmentResponsiveTest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testSuite.SkillAssessmentResponsiveTest -->
+    </classes>
+  </test> <!-- SingleTestFirefox(failed) -->
+  <test name="SingleTestSafari(failed)">
+    <parameter name="environment" value="safari"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="testSuite.SkillAssessmentResponsiveTest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testSuite.SkillAssessmentResponsiveTest -->
+    </classes>
+  </test> <!-- SingleTestSafari(failed) -->
+  <test name="SingleTestIE(failed)">
+    <parameter name="environment" value="ie"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="testSuite.SkillAssessmentResponsiveTest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testSuite.SkillAssessmentResponsiveTest -->
+    </classes>
+  </test> <!-- SingleTestIE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
